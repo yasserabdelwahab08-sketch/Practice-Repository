@@ -14,17 +14,19 @@ revision.
 **1. What branch naming convention does this project use? Give an example
 branch name you plan to use.**
 
-> Your answer here.
+<type>/<short-description>
+ example : docs/ add-my-name
 
 **2. What commit message format is required? Write the exact commit message
 you plan to use for your change.**
 
-> Your answer here.
+<type>: <short summary>
+"fix : fixed merge conflict"
 
 **3. Does this project expect a linked issue before opening a PR, or is a PR
 description enough?**
 
-> Your answer here.
+yes it expects to link the task issue
 
 ---
 
@@ -32,8 +34,14 @@ description enough?**
 
 **4. Paste the output of `git remote -v` from your local clone. Which remote
 is `origin` and which is `upstream`, and why does that distinction matter?**
+output:
+origin  https://github.com/yasserabdelwahab08-sketch/Practice-Repository.git (fetch)
+origin  https://github.com/yasserabdelwahab08-sketch/Practice-Repository.git (push)
+upstream        https://github.com/IbrahimYasserM/Practice-Repository.git (fetch)
+upstream        https://github.com/IbrahimYasserM/Practice-Repository.git (push)
 
-> Your answer here.
+my repo is the origin while Ibrahim's is the upstream.
+the upstream is the repo from which you forked.
 
 ---
 
